@@ -10,10 +10,10 @@ Need more than two layouts? You can build such APK basing on [Custom Keyboard La
 Want to support? [Buy me a coffee](https://www.buymeacoffee.com/ris58h).
 
 ## Prebuilt APKs
-- CapsLock to Ctrl [ExKeyMo-caps2ctrl.zip](https://github.com/ris58h/exkeymo-web/files/12775514/ExKeyMo-caps2ctrl.zip)
-- CapsLock to Ctrl and vice versa [ExKeyMo-swap-caps-and-ctrl.zip](https://github.com/ris58h/exkeymo-web/files/12775516/ExKeyMo-swap-caps-and-ctrl.zip)
-- CapsLock to Esc [ExKeyMo-caps2esc.zip](https://github.com/ris58h/exkeymo-web/files/12775515/ExKeyMo-caps2esc.zip)
-- CapsLock to Esc and vice versa [ExKeyMo-swap-caps-and-esc.zip](https://github.com/ris58h/exkeymo-web/files/12775517/ExKeyMo-swap-caps-and-esc.zip)
+- CapsLock to Ctrl [ExKeyMo-caps2ctrl.zip](https://github.com/ris58h/exkeymo-server/files/12775514/ExKeyMo-caps2ctrl.zip)
+- CapsLock to Ctrl and vice versa [ExKeyMo-swap-caps-and-ctrl.zip](https://github.com/ris58h/exkeymo-server/files/12775516/ExKeyMo-swap-caps-and-ctrl.zip)
+- CapsLock to Esc [ExKeyMo-caps2esc.zip](https://github.com/ris58h/exkeymo-server/files/12775515/ExKeyMo-caps2esc.zip)
+- CapsLock to Esc and vice versa [ExKeyMo-swap-caps-and-esc.zip](https://github.com/ris58h/exkeymo-server/files/12775517/ExKeyMo-swap-caps-and-esc.zip)
 
 ## Run locally
 
@@ -23,9 +23,9 @@ Want to support? [Buy me a coffee](https://www.buymeacoffee.com/ris58h).
 ### Get
 Clone the source code via Git:
 ```
-git clone git@github.com:ris58h/exkeymo-web.git
+git clone git@github.com:ris58h/exkeymo-server.git
 ```
-Or [download](https://github.com/ris58h/exkeymo-web/archive/refs/heads/master.zip) it as zip.
+Or [download](https://github.com/ris58h/exkeymo-server/archive/refs/heads/master.zip) it as zip.
 
 ### Build
 ```
@@ -34,11 +34,11 @@ Or [download](https://github.com/ris58h/exkeymo-web/archive/refs/heads/master.zi
 
 ### Run
 ```
-java -jar target/exkeymo-web-*-jar-with-dependencies.jar
+java -jar target/exkeymo-server-*-jar-with-dependencies.jar
 ```
 To run on a specific port use `server.port` system property:
 ```
-java -Dserver.port=PORT_NUMBER -jar target/exkeymo-web-*-jar-with-dependencies.jar
+java -Dserver.port=PORT_NUMBER -jar target/exkeymo-server-*-jar-with-dependencies.jar
 ```
 
 ### Use
@@ -50,12 +50,12 @@ You can run the application using Docker. There are two ways to do this: using D
 #### Using Docker
 Build the Docker image:
 ```bash
-docker build -t exkeymo-web .
+docker build -t exkeymo-server .
 ```
 
 Run the Docker container:
 ```bash
-docker run -p 80:80 exkeymo-web
+docker run -p 80:80 exkeymo-server
 ```
 This will start the container and expose the application on port 80.
 

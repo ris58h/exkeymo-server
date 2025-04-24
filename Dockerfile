@@ -5,6 +5,6 @@ RUN mvn clean install
 
 FROM openjdk:17-slim
 WORKDIR /app
-COPY --from=build /app/target/exkeymo-web-*-jar-with-dependencies.jar /app/exkeymo-web.jar
+COPY --from=build /app/target/exkeymo-server-*-jar-with-dependencies.jar /app/exkeymo-server.jar
 EXPOSE 80
-CMD ["java", "-jar", "/app/exkeymo-web.jar"]
+CMD ["java", "-jar", "/app/exkeymo-server.jar"]

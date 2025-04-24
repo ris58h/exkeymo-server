@@ -1,5 +1,5 @@
 services:
-  exkeymo-web:
+  exkeymo-server:
     build: .
     ports:
       - "80:80"

@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/exkeymo-web-*-jar-with-dependencies.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/exkeymo-server-*-jar-with-dependencies.jar
