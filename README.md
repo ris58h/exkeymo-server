@@ -15,7 +15,12 @@ Want to support? [Buy me a coffee](https://www.buymeacoffee.com/ris58h).
 - CapsLock to Esc [ExKeyMo-caps2esc.zip](https://github.com/ris58h/exkeymo-server/files/12775515/ExKeyMo-caps2esc.zip)
 - CapsLock to Esc and vice versa [ExKeyMo-swap-caps-and-esc.zip](https://github.com/ris58h/exkeymo-server/files/12775517/ExKeyMo-swap-caps-and-esc.zip)
 
-## Run locally
+## App instalation and setup
+
+1. Install the app. The app is self-signed so Android will warn you about untrusted source or something like this. Note: if you install the app and get an error, try to uninstall the previous version first, if you have any.
+2. Go to `Settings -> Language & input -> Physical keyboard` (the exact path may vary), choose the keyboard you want to customize, and select `ExKeyMo Layout`.
+
+## Run project locally
 
 ### Requirements
 - Java (17 or higher).
