@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=ris58h&project=exkeymo-server&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # ExKeyMo
 Since Android 4.1 an app can provide additional keyboard layouts via [Key Character Map](https://source.android.com/docs/core/input/key-character-map-files) files.
 Since then, it's possible to customize a keyboard layout without root access by installing an app that contains requred layout.
