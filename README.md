@@ -1,3 +1,5 @@
+This project is obsolete. Use static web version instead [https://github.com/ris58h/exkeymo](https://github.com/ris58h/exkeymo).
+
 # ExKeyMo
 Since Android 4.1 an app can provide additional keyboard layouts via [Key Character Map](https://source.android.com/docs/core/input/key-character-map-files) files.
 Since then, it's possible to customize a keyboard layout without root access by installing an app that contains requred layout.
